@@ -2,6 +2,7 @@ let weirdPlaceNames  = ["Accident, Maryland, USA", "Big Arm, Montana, USA", "Chi
 
 let placeClicker = document.querySelector("#getName");
 placeClicker.addEventListener("click", ()=>{
+    // * check out the line of code below.  This is a template for how to get a random element from an array
     let weirdPlace = weirdPlaceNames[Math.floor(weirdPlaceNames.length*Math.random())];
     document.querySelector("#weirdNameSpot").innerHTML = weirdPlace;
 });
