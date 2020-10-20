@@ -1,0 +1,23 @@
+{
+  "name": "javascript-randomness",
+  "version": "1.0.0",
+  "description": "understanding random values in javascript",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plasnid/javascript-randomness.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plasnid/javascript-randomness/issues"
+  },
+  "homepage": "https://github.com/Plasnid/javascript-randomness#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
